@@ -1,0 +1,8 @@
+{
+  "name": "Start Desafio Qualicorp: Node.js",
+  "description": "Desafio Qualicorp",
+  "repository": "https://github.com/heroku/rwsc-desafio-qualicorp",
+  "logo": "https://www.qualicorp.com.br/wp-content/uploads/2020/06/qualicorp-icon-1.png",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
