@@ -20,3 +20,4 @@
     {
       return this;
     } }]);return Cliente;}();exports.Cliente = Cliente;
+//# sourceMappingURL=Cliente.js.map

@@ -13,3 +13,4 @@ var ROUTER_MANAGER = /*#__PURE__*/function () {var _ref = _asyncToGenerator( /*#
             file["default"](app);_context.next = 20;break;case 17:_context.prev = 17;_context.t0 = _context["catch"](10);
 
             console.log(_context.t0.message);case 20:_context.next = 6;break;case 22:_context.next = 27;break;case 24:_context.prev = 24;_context.t1 = _context["catch"](4);_iterator.e(_context.t1);case 27:_context.prev = 27;_iterator.f();return _context.finish(27);case 30:case "end":return _context.stop();}}}, _callee, null, [[4, 24, 27, 30], [10, 17]]);}));return function ROUTER_MANAGER(_x) {return _ref.apply(this, arguments);};}();exports.ROUTER_MANAGER = ROUTER_MANAGER;
+//# sourceMappingURL=RouterManager.js.map

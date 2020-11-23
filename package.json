@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "build-babel": "babel -d ./build ./src -s",
-    "build": "npm run clean && npm run build-babel",
+    "build": "npm run clean && npm run build-babel && cp -r public build",
     "start": "npm run build && node ./build/index.js",
     "start:dev": "nodemon --exec babel-node src/index.js",
     "clean": "rm -rf build && mkdir build",

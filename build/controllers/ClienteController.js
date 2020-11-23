@@ -7,3 +7,4 @@ ClienteController = /*#__PURE__*/function (_Controller) {_inherits(ClienteContro
     _this.classe = 'Cliente';
     _this.modelo = _Cliente.Cliente;return _this;
   }return ClienteController;}(_Controller2.Controller);exports.ClienteController = ClienteController;
+//# sourceMappingURL=ClienteController.js.map

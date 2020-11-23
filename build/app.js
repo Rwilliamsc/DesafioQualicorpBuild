@@ -8,3 +8,4 @@ exports.app = app;app.session = _configs.DATA_BASE.session();
 
 // Configura as rotas de acesso
 (0, _RouterManager.ROUTER_MANAGER)(app);
+//# sourceMappingURL=app.js.map

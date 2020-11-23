@@ -1,5 +1,6 @@
 import express from 'express'
 import cors from 'cors'
+import path from 'path'
 
 export const CREATE_SERVER = () => {
   const app = express()
@@ -11,7 +12,7 @@ export const CREATE_SERVER = () => {
   app.use(express.json())
 
   // Configuração de arquivos estaticos
-  app.use('/', express.static('../public/'))
+  app.use('/', express.static(path.join(__dirname,'../public')))
 
   // Permite acesso externo
   app.use(cors())

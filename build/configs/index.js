@@ -1,2 +1,3 @@
 "use strict";Object.defineProperty(exports, "__esModule", { value: true });var _CreateServer = require("./CreateServer");Object.keys(_CreateServer).forEach(function (key) {if (key === "default" || key === "__esModule") return;if (key in exports && exports[key] === _CreateServer[key]) return;Object.defineProperty(exports, key, { enumerable: true, get: function get() {return _CreateServer[key];} });});
 var _DataBase = require("./DataBase");Object.keys(_DataBase).forEach(function (key) {if (key === "default" || key === "__esModule") return;if (key in exports && exports[key] === _DataBase[key]) return;Object.defineProperty(exports, key, { enumerable: true, get: function get() {return _DataBase[key];} });});
+//# sourceMappingURL=index.js.map

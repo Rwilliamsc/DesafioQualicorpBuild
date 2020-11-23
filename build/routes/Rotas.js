@@ -19,3 +19,4 @@ var ROTAS = function ROTAS(app, rota, controller) {
     controller["delete"](req, res);
   });
 };exports.ROTAS = ROTAS;
+//# sourceMappingURL=Rotas.js.map
