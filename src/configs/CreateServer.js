@@ -12,7 +12,7 @@ export const CREATE_SERVER = () => {
   app.use(express.json())
 
   // Configuração de arquivos estaticos
-  app.use('/', express.static(path.join(__dirname,'../public')))
+  app.use('/', express.static(path.join(__dirname, '../public')))
 
   // Permite acesso externo
   app.use(cors())
